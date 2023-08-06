@@ -94,7 +94,7 @@ body{
 .icon-item{
     width: 40px;
     height: 40px;
-    background-color: #1e202b;
+    /* background-color: #1e202b; */
     border-radius: 50%;
     color:#009ad8 ;
 }

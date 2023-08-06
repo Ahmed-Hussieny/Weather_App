@@ -3,19 +3,21 @@ var currentCity="Cairo"
 
 let WetherList =[];
 async function getWheater(city="Cairo"){
-    let MyReq =await fetch(`https://api.weatherapi.com/v1/forecast.json?key=fc5fff1d17ad4c89949143334230608&q=${city}&days=3`);
+    let MyReq =await fetch(`https://api.weatherapi.com/v1/forecast.json?key=fc5fff1d17ad4c89949143334230608&q=${city}&days=4`);
     
     let data = await MyReq.json();
-    WetherList.splice(0,WetherList.length);
+    // WetherList.splice(0,WetherList.length);
+    WetherList =[];
     WetherList.push(data);
+    // console.log(WetherList);
     currentCity=city;
     showData();
 
-    console.log(WetherList);
+    // console.log(WetherList);
 }
 getWheater();
-function getit(){
-    getWheater(CITYNAME.value);
+async function getit(){
+   await getWheater(CITYNAME.value);
 }
 var days =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"] ;
 let today = new Date().getDay();
@@ -23,13 +25,13 @@ var monthName = ['Jan','Feb','March','April','May','June','July','Aug','Spet','O
 let toMonth = new Date().getMonth();
 let toDate = new Date();
 
-console.log(days[today]);
-
+// console.log(days[today]);
+showData();
 
 function showData(){
     var temp="";
     WetherList.forEach((el)=>{
-        console.log(el);
+        // console.log(el);
         temp+=`<div class="col-md-4">
         <div class="W-item bg-b rounded">
           <!-- Header -->
