@@ -1,0 +1,115 @@
+.fd{
+    font-size: 10px;
+}.fs2{
+    font-size: 16px;
+    margin: 0px;
+    margin-top: 5px;
+}
+.navbar , .bg-d{
+    background-color: #1e202b !important;
+}
+.nav-link.active{
+    border: 2px solid #009ad8;
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 28px;
+    width: 90%;
+}
+.bgg{
+    border: 2px solid #009ad8;
+    /* color: #009ad8 !important; */
+}
+.bggg{
+    color: #009ad8 !important;
+}
+body{
+    background-color: #2d303d;
+}
+.bg-a{
+    background-color: #2d303d !important;
+}
+.bg-b{
+    background-color:  #323544 !important;
+}
+
+.bg-c{
+    background-color:  #222530 !important;
+}
+.bg-dd{
+    background-color:  #262936 !important;
+}
+
+
+.nav-link{
+    /* border: 2px solid #009ad8; */
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 28px;
+    width: 90%;
+    margin-left: 25px;
+    color: #009ad8;
+    margin-right: 20px;
+
+} 
+.nav-link.active a{
+    color: #009ad8 !important;
+}
+.nav-link:hover{
+    /* padding: 10px; */
+    border: 2px solid #009ad8;
+    color: #009ad8 !important;
+    /* border-radius: 50px; */
+}
+.kk{
+    display: flex;
+    justify-content: center !important;
+    color: #009ad8 !important;
+    /* background: #000; */
+}
+.banner{
+    background-image: url('../assets/banner.png');
+    /* background-size: cover; */
+    background-color: #1e202b;
+    background-repeat: no-repeat;
+}
+.kkkk{
+    background-color: transparent !important;
+}
+
+.bg{
+    background-color: #1e202b !important;
+    outline: 0px !important;
+    border:  0px !important;
+}
+.btn-info{
+    background: #009ad8;
+}
+.form-control {
+    border:  0px !important;
+}
+.icon-item{
+    width: 40px;
+    height: 40px;
+    background-color: #1e202b;
+    border-radius: 50%;
+    color:#009ad8 ;
+}
+.icon-item:hover{
+
+    background-color: #009ad8;
+    color:white ;
+
+}
+.ppp{
+    padding-bottom: 12px;
+}
+input::placeholder{
+    color: #6d6f75 !important;
+}
+input{
+    color: white !important;
+}
