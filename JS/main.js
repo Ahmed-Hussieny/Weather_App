@@ -55,9 +55,9 @@ function showData(){
 
 
               <div class=" ms-4 d-flex">
-                <p class="me-2 text-secondary"><img src="" alt=""> ${Math.round(el.current.humidity)}%  </p>
-                <p class="me-2 text-secondary"><img src="" alt=""> ${Math.round(el.current.wind_kph)}km/h</p>
-                <p class="me-2 text-secondary"><img src="" alt="">  ${el.current.wind_dir}</p>
+                <p class="me-4 text-secondary"><i class="fa-solid  fa-umbrella"></i>  ${Math.round(el.current.humidity)}%  </p>
+                <p class="me-4 text-secondary"><i class="fa-solid  fa-wind"></i> ${Math.round(el.current.wind_kph)}km/h</p>
+                <p class="me-4 text-secondary"><i class="fa-regular  fa-compass"></i> ${el.current.wind_dir}</p>
               </div>
         </div>
         

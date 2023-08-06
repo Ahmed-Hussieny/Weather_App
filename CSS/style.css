@@ -112,4 +112,6 @@ input::placeholder{
 }
 input{
     color: white !important;
+    outline: 0px !important;
+    box-shadow: 0px;
 }
