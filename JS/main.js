@@ -3,7 +3,7 @@ var currentCity="Cairo"
 
 let WetherList =[];
 async function getWheater(city="Cairo"){
-    let MyReq = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=fc5fff1d17ad4c89949143334230608&q=${city}&days=4`);
+    let MyReq = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=fc5fff1d17ad4c89949143334230608&q=${city}&days=8`);
     
     let data = await MyReq.json();
     // WetherList.splice(0,WetherList.length);
